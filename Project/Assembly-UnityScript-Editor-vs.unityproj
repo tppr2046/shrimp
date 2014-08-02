@@ -49,9 +49,14 @@
      <Compile Include="Assets\0000 a colormap terrainshader final\Scripts\Editor\applysplatmap_146.js" />
      <None Include="Assets\Photon Unity Networking\PlayMaker\ReleaseNotes.txt" />
      <None Include="Assets\PlayMaker\Readme.txt" />
+     <None Include="Assets\PlayMaker DataMaker\Xml\Examples\Sequencer\sequence.xml.xml" />
+     <None Include="Assets\PlayMaker DataMaker\Xml\Examples\test\test.xml.xml" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\Photon3Unity3D.xml" />
      <None Include="Assets\Scene\tarrin\SEA\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\release_history.txt" />
+     <None Include="Assets\PlayMaker ArrayMaker\readme.txt" />
+     <None Include="Assets\PlayMaker DataMaker\Xml\Examples\test\invalid.xml.xml" />
+     <None Include="Assets\PlayMaker DataMaker\Xml\Examples\Books\books.xml.xml" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
