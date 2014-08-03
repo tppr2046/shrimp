@@ -2,6 +2,8 @@ Base path: /Applications/Unity/Unity.app/Contents
 Pipe name: \\.\pipe\UnityShaderCompiler-1--1586019928
 Cmd: getPlatforms
 Cmd: preprocess
-  insize=12913 outsize=2602 ok=1
-Cmd: preprocess
-  insize=12080 outsize=2481 ok=1
+  insize=5140 outsize=2085 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3359 outsize=743 kw=WATER_REFRACTIVE ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3359 outsize=1055 kw=WATER_REFRACTIVE ok=1
