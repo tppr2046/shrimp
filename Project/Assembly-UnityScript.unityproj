@@ -56,7 +56,7 @@
      <None Include="Assets\Scene\tarrin\SEA\Water4\Sources\Shaders\FX-Water4.shader" />
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
  <Reference Include="PlayMaker">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

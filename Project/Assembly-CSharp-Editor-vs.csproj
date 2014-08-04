@@ -52,6 +52,8 @@
      <Compile Include="Assets\Editor\Water (Pro Only)\Water4\WaterBaseEditor.cs" />
      <Compile Include="Assets\Editor\Water (Pro Only)\Water4\WaterEditorUtility.cs" />
      <Compile Include="Assets\PlayMaker Animator\Actions\Editor\GetAnimatorBoneGameObjectActionEditor.cs" />
+     <Compile Include="Assets\PlayMaker Unity 2D\Components\Editor\PlayMakerUnity2DProxyInspector.cs" />
+     <Compile Include="Assets\PlayMaker Unity 2D\Editor\PlayMakerUnity2DEditorTools.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Editor\LookAtActionEditor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Editor\MoveTowardsActionEditor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Editor\SetCameraFOVActionEditor.cs" />
@@ -87,46 +89,46 @@
      <None Include="Assets\Scene\tarrin\SEA\Water4\Sources\Shaders\FX-Water4.shader" />
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>D:/GitHub/shrimp/Project/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="PlayMaker">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditorResources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.de.resources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/de/PlayMakerEditor.de.resources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/de/PlayMakerEditor.de.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.es-ES.resources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/es-ES/PlayMakerEditor.es-ES.resources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/es-ES/PlayMakerEditor.es-ES.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.fr.resources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/fr/PlayMakerEditor.fr.resources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/fr/PlayMakerEditor.fr.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.it.resources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/it/PlayMakerEditor.it.resources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/it/PlayMakerEditor.it.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.ja.resources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/ja/PlayMakerEditor.ja.resources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/ja/PlayMakerEditor.ja.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.nl.resources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/nl/PlayMakerEditor.nl.resources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/nl/PlayMakerEditor.nl.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.pt-BR.resources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/pt-BR/PlayMakerEditor.pt-BR.resources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/pt-BR/PlayMakerEditor.pt-BR.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.sv-SE.resources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/sv-SE/PlayMakerEditor.sv-SE.resources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/sv-SE/PlayMakerEditor.sv-SE.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.zh-CN.resources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/zh-CN/PlayMakerEditor.zh-CN.resources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/zh-CN/PlayMakerEditor.zh-CN.resources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor.zh-TW.resources">
- <HintPath>D:/GitHub/shrimp/Project/Assets/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
+ <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

@@ -1,0 +1,35 @@
+Initialize engine version: 4.5.2f1 (9abb1b59b47c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: ATI Radeon HD 4800 Series (ID=0x9442)
+    Vendor:   ATI
+    VRAM:     1013 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\PlayMaker.dll (this message is harmless)
+Loading C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\PlayMaker.dll into Unity Child Domain
+- Completed reload, in  0.075 seconds
+desktop: 1920x1200 59Hz; virtual: 2944x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Hayato\Documents\GitHub\shrimp\Project\Build_EXE\Test_Data\Managed\System.dll (this message is harmless)
+LoadLevelAsync: Game1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+UnloadTime: 2.945202 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 1543.
+Total: 4.932992 ms (FindLiveObjects: 0.190867 ms CreateObjectMapping: 0.029187 ms MarkObjects: 3.179466 ms  DeleteObjects: 0.679750 ms)
+
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
