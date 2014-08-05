@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_PSM;ENABLE_MICROPHONE;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_AUDIO_MANAGER_BASED_SCHEDULING;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;UNITY_PSM_API;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity PSM/Editor/Data/PlaybackEngines/PSM/Tools/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity PSM/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -436,57 +436,10 @@
      <Compile Include="Assets\PlayMaker\Actions\MousePickEvent.cs" />
      <Compile Include="Assets\PlayMaker\Actions\MovePosition.cs" />
      <Compile Include="Assets\PlayMaker\Actions\MoveTowards.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\MovieTextureAudioSettings.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\MasterServerClearHostList.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\MasterServerGetHostCount.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\MasterServerGetHostData.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\MasterServerGetNextHostData.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\MasterServerGetProperties.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\MasterServerRegisterHost.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\MasterServerRequestHostList.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\MasterServerSetProperties.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\MasterServerUnregisterHost.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkCloseConnection.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkConnect.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkDestroy.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkDisconnect.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetAveragePing.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetConnectedPlayerProperties.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetConnectionsCount.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetIsMessageQueueRunning.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetLastPing.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetLocalPlayerProperties.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetMaximumConnections.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetMessagePlayerProperties.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetMinimumAllocatableViewIDs.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetNetworkDisconnectionInfo.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetNetworkErrorInfo.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetNextConnectedPlayerProperties.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetSendRate.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkGetTime.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkHavePublicIpAddress.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkInitializeServer.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkInstantiate.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkIsClient.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkIsServer.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkPeerTypeSwitch.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkSetIsMessageQueueRunning.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkSetLevelPrefix.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkSetLogLevel.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkSetMaxConnections.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkSetMinimumAllocatableViewIDs.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkSetSendRate.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkViewGetIsMine.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkViewGetViewId.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\NetworkViewRemoveRPCs.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\SendRemoteEvent.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\Network\StartServer.cs" />
      <Compile Include="Assets\PlayMaker\Actions\NextFrameEvent.cs" />
      <Compile Include="Assets\PlayMaker\Actions\ObjectCompare.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\PauseMovieTexture.cs" />
      <Compile Include="Assets\PlayMaker\Actions\PerSecond.cs" />
      <Compile Include="Assets\PlayMaker\Actions\PlayAnimation.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\PlayMovieTexture.cs" />
      <Compile Include="Assets\PlayMaker\Actions\PlayRandomAnimation.cs" />
      <Compile Include="Assets\PlayMaker\Actions\PlayRandomSound.cs" />
      <Compile Include="Assets\PlayMaker\Actions\PlaySound.cs" />
@@ -499,10 +452,6 @@
      <Compile Include="Assets\PlayMaker\Actions\PlayerPrefs\PlayerPrefsSetFloat.cs" />
      <Compile Include="Assets\PlayMaker\Actions\PlayerPrefs\PlayerPrefsSetInt.cs" />
      <Compile Include="Assets\PlayMaker\Actions\PlayerPrefs\PlayerPrefsSetString.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\ProceduralMaterial\RebuildTextures.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\ProceduralMaterial\SetProceduralBoolean.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\ProceduralMaterial\SetProceduralColor.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\ProceduralMaterial\SetProceduralFloat.cs" />
      <Compile Include="Assets\PlayMaker\Actions\ProjectLocationToMap.cs" />
      <Compile Include="Assets\PlayMaker\Actions\RandomBool.cs" />
      <Compile Include="Assets\PlayMaker\Actions\RandomEvent.cs" />
@@ -599,7 +548,6 @@
      <Compile Include="Assets\PlayMaker\Actions\SetMaterial.cs" />
      <Compile Include="Assets\PlayMaker\Actions\SetMaterialColor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\SetMaterialFloat.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\SetMaterialMovieTexture.cs" />
      <Compile Include="Assets\PlayMaker\Actions\SetMaterialTexture.cs" />
      <Compile Include="Assets\PlayMaker\Actions\SetMouseCursor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\SetName.cs" />
@@ -632,7 +580,6 @@
      <Compile Include="Assets\PlayMaker\Actions\StartLocationServiceUpdates.cs" />
      <Compile Include="Assets\PlayMaker\Actions\StopAnimation.cs" />
      <Compile Include="Assets\PlayMaker\Actions\StopLocationServiceUpdates.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\StopMovieTexture.cs" />
      <Compile Include="Assets\PlayMaker\Actions\StringChanged.cs" />
      <Compile Include="Assets\PlayMaker\Actions\StringCompare.cs" />
      <Compile Include="Assets\PlayMaker\Actions\StringContains.cs" />
@@ -666,7 +613,6 @@
      <Compile Include="Assets\PlayMaker\Actions\Vector3PerSecond.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Vector3RotateTowards.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Vector3Subtract.cs" />
-     <Compile Include="Assets\PlayMaker\Actions\WWWObject.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Wait.cs" />
      <Compile Include="Assets\PlayMaker\Actions\WakeAllRigidBodies.cs" />
      <Compile Include="Assets\PlayMaker\Actions\WakeUp.cs" />
@@ -703,10 +649,8 @@
      <Compile Include="Assets\Scene\tarrin\SEA\Water4\Sources\Scripts\Displace.cs" />
      <Compile Include="Assets\Scene\tarrin\SEA\Water4\Sources\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\Scene\tarrin\SEA\Water4\Sources\Scripts\MeshContainer.cs" />
-     <Compile Include="Assets\Scene\tarrin\SEA\Water4\Sources\Scripts\PlanarReflection.cs" />
      <Compile Include="Assets\Scene\tarrin\SEA\Water4\Sources\Scripts\SpecularLighting.cs" />
      <Compile Include="Assets\Scene\tarrin\SEA\Water4\Sources\Scripts\WaterBase.cs" />
-     <Compile Include="Assets\Scene\tarrin\SEA\Water4\Sources\Scripts\WaterTile.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
      <None Include="Assets\PlayMaker\Readme.txt" />
      <None Include="Assets\Scene\tarrin\SEA\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
@@ -717,12 +661,8 @@
      <None Include="Assets\Scene\tarrin\SEA\Water4\Sources\Shaders\FX-Water4.shader" />
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
  <Reference Include="PlayMaker">
- <HintPath>C:/Users/Hayato/Documents/GitHub/shrimp/Project/Assets/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>Assets\PlayMaker\PlayMaker.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{EB8AA23C-2655-E22B-2EBB-05697394EDB3}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
